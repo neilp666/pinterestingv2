@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 gem 'devise'
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
 group :production do
   gem 'pg'
